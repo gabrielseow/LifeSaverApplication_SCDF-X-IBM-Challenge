@@ -20,7 +20,6 @@ Short description of your team members, and team name.
   - Live demo (Link to an actual working demo/website)
   - **What your team used to build your solution*** (e.g. IBM Cloudant, IBM Cloud Functions, etc…)
 
-*Items marked with an asterisk are compulsory
 
 #### 2. Folder that contains your team’s codes
   - Note that you may code in any language (e.g. Python, C++, Java Script, etc.)
