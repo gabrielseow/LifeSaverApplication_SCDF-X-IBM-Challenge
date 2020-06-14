@@ -1,4 +1,4 @@
-# TheFives-LifeSavers Application_SCDFXIBM
+# TheFIVES-LifeSavers Application_SCDFXIBM
 The solution created by team 'TheFives' for the SCDF X IBM Innovation Challenge 2020.
 
 ### Materials to Submit on GitHub
