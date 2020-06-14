@@ -30,7 +30,7 @@ The online chatbot and IoT channels greatly increases the system’s ability to 
 
 We hope to increase the scope of the app by providing an educational and rewards section. The former will provide lessons for the volunteers, and also provide just-in-time resources in case they need to tend to an emergency. The rewards section is simply an additional incentive for users to use the app and get to know its functions and resources.
 
-  - **Pitch Video***
+  - **Pitch Video and DEMO***
   https://youtu.be/a1o9RLjWeho
   
   - **The architecture of your proposed solution***
