@@ -1,13 +1,7 @@
 # TheFIVES-LifeSavers Application_SCDFXIBM
 The solution created by team 'TheFives' for the SCDF X IBM Innovation Challenge 2020.
 
-### Materials to Submit on GitHub
-After completing your project, you will have to upload several materials on to your team’s
-repository. Do ensure that your team’s name is reflected on your repository. These are the
-materials you will have to submit:
 
-#### 1. README.md
-Your README.md should contain:
 
 #### Short Description of our team members and team name: 
 
@@ -37,6 +31,7 @@ The online chatbot and IoT channels greatly increases the system’s ability to 
 We hope to increase the scope of the app by providing an educational and rewards section. The former will provide lessons for the volunteers, and also provide just-in-time resources in case they need to tend to an emergency. The rewards section is simply an additional incentive for users to use the app and get to know its functions and resources.
 
   - **Pitch Video***
+  
   https://youtu.be/a1o9RLjWeho
   
   - **The architecture of your proposed solution***
