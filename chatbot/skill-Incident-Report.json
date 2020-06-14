@@ -1,0 +1,1838 @@
+{
+  "intents": [
+    {
+      "intent": "reset",
+      "examples": [
+        {
+          "text": "reset"
+        },
+        {
+          "text": "restart"
+        },
+        {
+          "text": "nevermind"
+        },
+        {
+          "text": "stop"
+        },
+        {
+          "text": "cancel"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "report",
+      "examples": [
+        {
+          "text": "i need help"
+        },
+        {
+          "text": "there is an incident"
+        },
+        {
+          "text": "i need to call the police"
+        },
+        {
+          "text": "someone needs help"
+        },
+        {
+          "text": "report"
+        },
+        {
+          "text": "i need help at the car park"
+        },
+        {
+          "text": "there is a car accident"
+        },
+        {
+          "text": "i saw a car accident"
+        },
+        {
+          "text": "my house is on fire"
+        },
+        {
+          "text": "my grandfather is missing"
+        },
+        {
+          "text": "my kitchen is on fire"
+        },
+        {
+          "text": "my grandmother is lost"
+        },
+        {
+          "text": "i see smoke"
+        },
+        {
+          "text": "my friend is in trouble"
+        },
+        {
+          "text": "i see a fire"
+        },
+        {
+          "text": "report an incident"
+        },
+        {
+          "text": "i see an accident"
+        },
+        {
+          "text": "someone wants to commit suicide"
+        },
+        {
+          "text": "someone is in trouble"
+        },
+        {
+          "text": "someone wants to jump"
+        },
+        {
+          "text": "someone broke his leg"
+        },
+        {
+          "text": "something happened"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "Byebye"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Cya"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "hi there"
+        },
+        {
+          "text": "Hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "how does this work?"
+        },
+        {
+          "text": "hi, what can i do?"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "what can you do?"
+        },
+        {
+          "text": "info"
+        },
+        {
+          "text": "how do i use this?"
+        },
+        {
+          "text": "what can i do?"
+        },
+        {
+          "text": "what do you do?"
+        },
+        {
+          "text": "what do i do?"
+        },
+        {
+          "text": "how are the details recorded?"
+        },
+        {
+          "text": "who am i talking to?"
+        },
+        {
+          "text": "what do i type?"
+        },
+        {
+          "text": "does this report to scdf?"
+        },
+        {
+          "text": "how does the report work?"
+        },
+        {
+          "text": "hi, what do you do?"
+        },
+        {
+          "text": "hello, what do you do?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "manual",
+      "examples": [
+        {
+          "text": "manual"
+        }
+      ]
+    },
+    {
+      "intent": "uncertain",
+      "examples": [
+        {
+          "text": "not sure"
+        },
+        {
+          "text": "i can't remember"
+        },
+        {
+          "text": "cannot confirm"
+        },
+        {
+          "text": "i don't know"
+        },
+        {
+          "text": "i forgot"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "vicinity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nearby",
+          "synonyms": [
+            "just now",
+            "near",
+            "nearby",
+            "i am there right now",
+            "i can see it",
+            "in front of me",
+            "i am there"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "far away",
+          "synonyms": [
+            "not near",
+            "i am not there right now",
+            "i ran away",
+            "far away",
+            "i am safe"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "road side",
+          "synonyms": [
+            "road",
+            "on the road",
+            "cars",
+            "car accident",
+            "traffic",
+            "knocked down",
+            "collide",
+            "highway",
+            "speeding",
+            "drunk driving",
+            "bus",
+            "road side",
+            "bus stop"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "home",
+          "synonyms": [
+            "house",
+            "home",
+            "bed",
+            "bedroom",
+            "neighbor",
+            "bungalow",
+            "flat",
+            "apartment",
+            "condo",
+            "residence",
+            "hdb"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "building",
+          "synonyms": [
+            "car park",
+            "shopping mall",
+            "mall",
+            "shopping centre",
+            "convenience store",
+            "7-11",
+            "Cheers",
+            "restaurant",
+            "office building",
+            "road side",
+            "café",
+            "hotel",
+            "office"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "time-estimate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "past",
+          "synonyms": [
+            "a while ago",
+            "it's been quite long",
+            "quite long ago",
+            "happened a while ago"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "recent",
+          "synonyms": [
+            "recently",
+            "just now",
+            "just happened"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "acknowledgement",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nope",
+            "no",
+            "negative",
+            "of course not"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yes",
+            "positive",
+            "yup",
+            "yeah",
+            "correct",
+            "of course"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "risk",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "high",
+          "synonyms": [
+            "emergency",
+            "dead",
+            "screaming",
+            "not breathing",
+            "unconscious",
+            "old man",
+            "elderly",
+            "fire",
+            "burning",
+            "dying",
+            "killed",
+            "murder",
+            "old woman",
+            "broken",
+            "bone",
+            "stab",
+            "high"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "low",
+          "synonyms": [
+            "end",
+            "stopped",
+            "far away",
+            "minor",
+            "not serious",
+            "low",
+            "not important",
+            "safe"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "medium",
+          "synonyms": [
+            "bleeding",
+            "injured",
+            "smoke",
+            "shouting",
+            "medium",
+            "missing",
+            "days",
+            "cannot find him",
+            "cannot find her",
+            "dementia",
+            "cannot find",
+            "has not come home"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "incident",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "elderly",
+          "synonyms": [
+            "old man",
+            "old woman",
+            "dementia",
+            "alzheimers",
+            "old",
+            "old folk's home",
+            "senile",
+            "elderly",
+            "missing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fire",
+          "synonyms": [
+            "burning",
+            "smoke",
+            "burnt",
+            "flame",
+            "fire",
+            "firefighters",
+            "cigarette"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "medical",
+          "synonyms": [
+            "fall",
+            "unconscious",
+            "fainted",
+            "not moving",
+            "not breathing",
+            "injured",
+            "hurt",
+            "in pain",
+            "bleeding",
+            "bruise",
+            "broken",
+            "medical",
+            "fighting",
+            "bones",
+            "fell down"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please select the severity of the incident",
+            "options": [
+              {
+                "label": "High",
+                "value": {
+                  "input": {
+                    "text": "high"
+                  }
+                }
+              },
+              {
+                "label": "Medium",
+                "value": {
+                  "input": {
+                    "text": "medium"
+                  }
+                }
+              },
+              {
+                "label": "Low",
+                "value": {
+                  "input": {
+                    "text": "low"
+                  }
+                }
+              }
+            ],
+            "description": "High risk - Potentially life threatening (e.g. heart attack, house fire). Medium risk - Dangerous but not life threatening (e.g. fights, non-fatal injuries). Low risk - Minor incidents (e.g. lost persons, minor injuries)",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_1_1592107067367",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1592107067371",
+      "previous_sibling": "handler_6_1592107067371"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1592107067367",
+      "context": {
+        "risk": "@risk"
+      },
+      "conditions": "@risk",
+      "event_name": "input",
+      "dialog_node": "handler_6_1592107067371"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Could you describe what happened?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1592043632948",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1592043632950",
+      "previous_sibling": "handler_5_1592043632950"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1592043632948",
+      "context": {
+        "incident": "@incident"
+      },
+      "conditions": "@incident",
+      "event_name": "input",
+      "dialog_node": "handler_5_1592043632950"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1592109949257",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1592109949261",
+      "previous_sibling": "handler_10_1592109949261"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1592109949257",
+      "context": {
+        "location": "@location"
+      },
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_10_1592109949261"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to report an incident?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1592106648418",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "$reset",
+      "dialog_node": "response_2_1592106978733",
+      "previous_sibling": "slot_1_1592107067367"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Cancelling report"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1592106648418",
+      "context": {
+        "reset": true
+      },
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#reset",
+      "event_name": "generic",
+      "dialog_node": "handler_2_1592110032054",
+      "previous_sibling": "handler_6_1592110024151"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Incident report already in 'manual' mode"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1592106648418",
+      "conditions": "#manual",
+      "event_name": "generic",
+      "dialog_node": "handler_5_1592115617773",
+      "previous_sibling": "handler_2_1592110032054"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1592106648418",
+      "variable": "$time_estimate",
+      "dialog_node": "slot_1_1592109953874",
+      "previous_sibling": "slot_6_1592109949257"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1592106648418",
+      "variable": "$risk",
+      "dialog_node": "slot_1_1592107067367",
+      "previous_sibling": "slot_7_1592106979007"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1592106648418",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#uncertain",
+      "event_name": "generic",
+      "dialog_node": "handler_6_1592115644299",
+      "previous_sibling": "handler_5_1592115617773"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1592106648418",
+      "variable": "$vicinity",
+      "dialog_node": "slot_8_1592114483481",
+      "previous_sibling": "slot_1_1592109953874"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1592106648418",
+      "variable": "$incident",
+      "dialog_node": "slot_7_1592106979007",
+      "previous_sibling": "slot_8_1592114483481"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1592106648418",
+      "variable": "$location",
+      "dialog_node": "slot_6_1592109949257",
+      "previous_sibling": "slot_5_1592109952635"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1592106648418",
+      "variable": "$sys_time",
+      "dialog_node": "slot_5_1592109952635",
+      "previous_sibling": "handler_6_1592115644299"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "We are currently still capturing your details of the incident, type 'reset' if you wish to cancel the report"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1592106648418",
+      "conditions": "#help",
+      "event_name": "generic",
+      "dialog_node": "handler_6_1592110024151"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please select the type of incident",
+            "options": [
+              {
+                "label": "Fire",
+                "value": {
+                  "input": {
+                    "text": "fire"
+                  }
+                }
+              },
+              {
+                "label": "Medical",
+                "value": {
+                  "input": {
+                    "text": "medical"
+                  }
+                }
+              },
+              {
+                "label": "Elderly",
+                "value": {
+                  "input": {
+                    "text": "elderly"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_7_1592106979007",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1592106979017",
+      "previous_sibling": "handler_10_1592106979017"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1592106979007",
+      "context": {
+        "incident": "@incident"
+      },
+      "conditions": "@incident",
+      "event_name": "input",
+      "dialog_node": "handler_10_1592106979017"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1592113655370",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1592113655374",
+      "previous_sibling": "handler_9_1592113655374"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1592113655370",
+      "context": {
+        "vicinity": "@vicinity"
+      },
+      "conditions": "@vicinity",
+      "event_name": "input",
+      "dialog_node": "handler_9_1592113655374"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1592109953874",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1592109953878",
+      "previous_sibling": "handler_8_1592109953878"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1592109953874",
+      "context": {
+        "time_estimate": "@time-estimate"
+      },
+      "conditions": "@time-estimate",
+      "event_name": "input",
+      "dialog_node": "handler_8_1592109953878"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. Would you like to report an incident?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "dialog_node": "response_7_1592107459791",
+      "previous_sibling": "node_7_1592107612911"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmation",
+      "parent": "Welcome",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@acknowledgement",
+      "dialog_node": "node_7_1592107612911"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1592114483481",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1592114483485",
+      "previous_sibling": "handler_6_1592114483485"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1592114483481",
+      "context": {
+        "vicinity": "@vicinity"
+      },
+      "conditions": "@vicinity",
+      "event_name": "input",
+      "dialog_node": "handler_6_1592114483485"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1592044954981",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1592044954983",
+      "previous_sibling": "handler_1_1592044954983"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1592044954981",
+      "context": {
+        "sys_time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_1_1592044954983"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1592041345074",
+      "variable": "$risk",
+      "dialog_node": "slot_10_1592043644429",
+      "previous_sibling": "slot_6_1592043632948"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1592041345074",
+      "variable": "$incident",
+      "dialog_node": "slot_6_1592043632948",
+      "previous_sibling": "slot_2_1592113655370"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1592041345074",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#uncertain",
+      "event_name": "generic",
+      "dialog_node": "handler_4_1592053072147",
+      "previous_sibling": "handler_7_1592052028357"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to report an incident?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592041345074",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "$reset",
+      "dialog_node": "response_10_1592110159235",
+      "previous_sibling": "response_5_1592106795095"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hmm, I was unable to detect the severity of the incident"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592041345074",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "!$risk",
+      "dialog_node": "response_2_1592070914407",
+      "previous_sibling": "response_10_1592110159235"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cancelling report"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592041345074",
+      "context": {
+        "reset": true
+      },
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#reset",
+      "event_name": "generic",
+      "dialog_node": "handler_6_1592053234649",
+      "previous_sibling": "handler_4_1592053072147"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1592041345074",
+      "variable": "$location",
+      "dialog_node": "slot_10_1592043574303",
+      "previous_sibling": "slot_2_1592044954981"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1592041345074",
+      "variable": "$vicinity",
+      "dialog_node": "slot_2_1592113655370",
+      "previous_sibling": "slot_4_1592043620917"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "node_1_1592041345074",
+      "context": {
+        "manual": true
+      },
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#manual",
+      "event_name": "generic",
+      "dialog_node": "handler_7_1592106742474",
+      "previous_sibling": "handler_6_1592053234649"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hmm, I was unable to detect the type of incident"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592041345074",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "!$incident",
+      "dialog_node": "response_10_1592071258209",
+      "previous_sibling": "response_2_1592070914407"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Moving to manual report"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592041345074",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1592106648418"
+      },
+      "conditions": "$manual",
+      "dialog_node": "response_5_1592106795095",
+      "previous_sibling": "slot_10_1592043644429"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1592041345074",
+      "variable": "$sys_time",
+      "dialog_node": "slot_2_1592044954981",
+      "previous_sibling": "handler_7_1592106742474"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1592041345074",
+      "variable": "$time_estimate",
+      "dialog_node": "slot_4_1592043620917",
+      "previous_sibling": "slot_10_1592043574303"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "We are currently still capturing your details of the incident, type 'manual' if you wish to report the incident manually"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are currently still capturing your details of the incident, type 'manual' if you wish to report the incident manually"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592041345074",
+      "conditions": "#help",
+      "event_name": "generic",
+      "dialog_node": "handler_7_1592052028357"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592043620917",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1592043620926",
+      "previous_sibling": "handler_6_1592043620926"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592043620917",
+      "context": {
+        "time_estimate": "@time-estimate"
+      },
+      "conditions": "@time-estimate",
+      "event_name": "input",
+      "dialog_node": "handler_6_1592043620926"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1592115807105",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1592115807114",
+      "previous_sibling": "handler_4_1592115807114"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Incident: $incident"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1592115807105",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1592117026914",
+      "previous_sibling": "handler_3_1592115807114"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1592115807105",
+      "context": {
+        "incident": "$incident"
+      },
+      "conditions": "$incident",
+      "event_name": "input",
+      "dialog_node": "handler_4_1592115807114"
+    },
+    {
+      "type": "frame",
+      "title": "Acknowledgement",
+      "parent": "node_9_1592072311715",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1592053323071"
+      },
+      "conditions": "@acknowledgement",
+      "dialog_node": "node_4_1592116568478",
+      "previous_sibling": "response_2_1592119900574"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1592072311715",
+      "variable": "$risk",
+      "dialog_node": "slot_7_1592117134870",
+      "previous_sibling": "slot_5_1592115807105"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1592072311715",
+      "variable": "$vicinity",
+      "dialog_node": "slot_4_1592117249764",
+      "previous_sibling": "slot_3_1592117217504"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1592072311715",
+      "variable": "$sys_time",
+      "dialog_node": "slot_3_1592117217504",
+      "previous_sibling": "slot_1_1592117163988"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1592072311715",
+      "variable": "$incident",
+      "dialog_node": "slot_5_1592115807105",
+      "previous_sibling": "node_4_1592116568478"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1592072311715",
+      "variable": "$location",
+      "dialog_node": "slot_1_1592117163988",
+      "previous_sibling": "slot_7_1592117134870"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are the details correct?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1592072311715",
+      "dialog_node": "response_2_1592119900574"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Time: $sys_time"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1592117217504",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1592117235088",
+      "previous_sibling": "handler_10_1592117217508"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1592117217504",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1592117217508",
+      "previous_sibling": "handler_7_1592117217508"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1592117217504",
+      "context": {
+        "sys_time": "$sys_time"
+      },
+      "conditions": "$sys_time",
+      "event_name": "input",
+      "dialog_node": "handler_7_1592117217508"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1592109952635",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1592109952640",
+      "previous_sibling": "handler_6_1592109952640"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1592109952635",
+      "context": {
+        "sys_time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_6_1592109952640"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592117249764",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1592117249769",
+      "previous_sibling": "handler_2_1592117249769"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Vicinity: $vicinity"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1592117249764",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1592117260692",
+      "previous_sibling": "handler_4_1592117249769"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592117249764",
+      "context": {
+        "vicinity": "$vicinity"
+      },
+      "conditions": "$vicinity",
+      "event_name": "input",
+      "dialog_node": "handler_2_1592117249769"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Location: $location"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1592117163988",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1592117200284",
+      "previous_sibling": "handler_8_1592117163991"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1592117163988",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1592117163991",
+      "previous_sibling": "handler_4_1592117163991"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1592117163988",
+      "context": {
+        "location": "$location"
+      },
+      "conditions": "$location",
+      "event_name": "input",
+      "dialog_node": "handler_4_1592117163991"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. You may report an incident anytime by typing 'report'"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1592107612911",
+      "conditions": "@acknowledgement:(no)",
+      "dialog_node": "response_3_1592107672769",
+      "previous_sibling": "response_1_1592107661186"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Starting report"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1592107612911",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1592041345074"
+      },
+      "conditions": "@acknowledgement:(yes)",
+      "dialog_node": "response_1_1592107661186"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Volunteers are being notified immediately"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592116568478",
+      "conditions": "$risk:(low) || $risk:(medium)",
+      "dialog_node": "response_9_1592116588749",
+      "previous_sibling": "response_6_1592116601095"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your report, firefighters will be sent immediately"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592116568478",
+      "conditions": "$risk:(high) && $incident:(fire)",
+      "dialog_node": "response_9_1592116741124",
+      "previous_sibling": "response_9_1592116588749"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your report, SCDF personnel are on their way"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592116568478",
+      "conditions": "$risk:(high) && $incident:(elderly)",
+      "dialog_node": "response_8_1592116773602",
+      "previous_sibling": "response_8_1592116750571"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cancelling report"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592116568478",
+      "conditions": "$acknowledgement:(no)",
+      "dialog_node": "response_6_1592116601095",
+      "previous_sibling": "slot_3_1592117807562"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your report, our paramedics are on their way"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592116568478",
+      "conditions": "$risk:(high) && $incident:(medical)",
+      "dialog_node": "response_8_1592116750571",
+      "previous_sibling": "response_9_1592116741124"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1592116568478",
+      "variable": "$acknowledgement",
+      "dialog_node": "slot_3_1592117807562"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Could you describe the severity of the incident?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1592043644429",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1592043644432",
+      "previous_sibling": "handler_10_1592043644431"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1592043644429",
+      "context": {
+        "risk": "@risk"
+      },
+      "conditions": "@risk",
+      "event_name": "input",
+      "dialog_node": "handler_10_1592043644431"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1592117134870",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1592117134876",
+      "previous_sibling": "handler_9_1592117134876"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Risk: $risk"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1592117134870",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1592117146565",
+      "previous_sibling": "handler_8_1592117134876"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1592117134870",
+      "context": {
+        "risk": "$risk"
+      },
+      "conditions": "$risk",
+      "event_name": "input",
+      "dialog_node": "handler_9_1592117134876"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please confirm the details"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1592117807562",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1592117807576",
+      "previous_sibling": "handler_5_1592117807576"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1592117807562",
+      "context": {
+        "acknowledgement": "@acknowledgement"
+      },
+      "conditions": "@acknowledgement",
+      "event_name": "input",
+      "dialog_node": "handler_5_1592117807576"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1592043574303",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1592043574310",
+      "previous_sibling": "handler_3_1592043574310"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1592043574303",
+      "context": {
+        "location": "@location"
+      },
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_3_1592043574310"
+    },
+    {
+      "type": "standard",
+      "title": "Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can report any incidents and emergencies through the chat! Non life threatening incidents will be notified to volunteers in the vicinity and high risk incidents will be sent to the SCDF."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#help",
+      "dialog_node": "node_2_1592051365456",
+      "previous_sibling": "node_10_1592039394848"
+    },
+    {
+      "type": "frame",
+      "title": "Confirmation",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1592116568478"
+      },
+      "dialog_node": "node_9_1592072311715",
+      "previous_sibling": "node_5_1592118025599"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmation Message",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The following are the details of your incident"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1592072311715"
+      },
+      "dialog_node": "node_5_1592118025599",
+      "previous_sibling": "node_10_1592106648418"
+    },
+    {
+      "type": "standard",
+      "title": "Farewell",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Goodbye, thank you for using our service."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#goodbyes",
+      "dialog_node": "node_10_1592039394848",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "title": "Manual",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1592118025599"
+      },
+      "conditions": "#manual",
+      "dialog_node": "node_10_1592106648418",
+      "previous_sibling": "node_1_1592041345074"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1592072311715",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Reset",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You may report a new incident if you would like"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "risk": null,
+        "temp": null,
+        "reset": null,
+        "manual": null,
+        "incident": null,
+        "location": null,
+        "sys_time": null,
+        "vicinity": null,
+        "time-estimate": null,
+        "ackowledgement": null
+      },
+      "conditions": "#reset",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1592053323071",
+      "previous_sibling": "node_2_1592051365456"
+    },
+    {
+      "type": "frame",
+      "title": "Report",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1592118025599"
+      },
+      "conditions": "#report",
+      "dialog_node": "node_1_1592041345074",
+      "previous_sibling": "node_7_1592053323071"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1592107612911"
+      },
+      "conditions": "#greeting || welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Incident Report",
+  "language": "en",
+  "description": ""
+}
