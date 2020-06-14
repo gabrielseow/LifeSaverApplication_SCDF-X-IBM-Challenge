@@ -19,7 +19,7 @@ First, we have Richard who is from the Faculty of Science pursuing a major in Da
 
 Second, we have Mark who is also from the Faculty of Science pursuing a major in Data Analytics. In this competition, his role focuses on mobile application development, creating a dynamic and interactive mobile application to enhance user experience.
 
-Third, we have Gabriel who is from the School of Computing. In this competition, his role focuses on the mobile application Chatbot feature, to enable easy reporting of incidents that will be filtered to ensure efficient use of resources.
+Third, we have Gabriel who is from the School of Computing pursuing a major in Computer Science. In this competition, his role focuses on the mobile application Chatbot feature, to enable easy reporting of incidents that will be filtered to ensure efficient use of resources.
 
 Fourth, we have Rica who is from the School of Design and Environment pursuing a major in Project and Facilities Management. In this competition, her role focuses on Project Scheduling and idea generation. 
 
