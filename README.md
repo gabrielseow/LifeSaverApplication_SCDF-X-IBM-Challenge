@@ -26,6 +26,7 @@ Fourth, we have Rica who is from the School of Design and Environment pursuing a
 Fifth, we have Kelly who is also from the School of Design and Environment pursuing a major in Project and Facilities Management. In this competition, her role focuses on idea generation of the supporting mobile application features.
 
   - **A short description of the problem you are tackling, how technology can help, as well as the idea your team is proposing***
+
 The key issue that our team is targeting is the issue of increasing numbers of a vulnerable aging population. We also realised a current deficiency in the non-emergency reporting channels in Singapore. We hope to address this problem through an application that leverages key technologies to improve communications between the on-site incidents, SCDF (Singapore Civil Defence Force) and CFR (Community First Responders) to address a potentially increasing number of elderly related non-emergency incidents. 
 
 This is achieved via the following: 1. A non-emergency reporting channel via an online chatbot, 2. An IoT-based elderly incident reporting channel, 3. A volunteer dispatch system based on the proximity of the incident and the address and proximity of the volunteer. 
