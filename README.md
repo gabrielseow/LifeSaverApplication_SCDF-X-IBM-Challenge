@@ -45,6 +45,8 @@ We hope to increase the scope of the app by providing an educational and rewards
   
  #### Project Roadmap/ Proposed timeline
  ![ibm](https://user-images.githubusercontent.com/65336993/84586273-a8bd1b80-ae4a-11ea-8168-281d061ab0bb.png)
+ 
+ **Future App Development**
  <img width="468" alt="capture" src="https://user-images.githubusercontent.com/65336993/84589305-28091a00-ae60-11ea-8dae-282301bf8b85.PNG">
 
  
