@@ -15,15 +15,16 @@ Hello there! We are **The FIVES**!
 
 Our group comprises 5 team members who are all currently studying at the National University of Singapore. 
 
-First, we have Richard who is from the Faculty of Science pursuing a major in Data Analytics. In this competition, his role focuses on establishing links between our group’s mobile application and IoT Data, creating a seamless connection between the community and the elderly. 
+First, we have Richard who is from the Faculty of Science, pursuing a major in Statistics. In this competition, his role focuses on establishing links between our group’s mobile application and IoT Data, creating a seamless connection between the community and the elderly. 
 
-Second, we have Mark who is also from the Faculty of Science pursuing a major in Data Analytics. In this competition, his role focuses on mobile application development, creating a dynamic and interactive mobile application to enhance user experience.
+Second, we have Mark who is also from the Faculty of Science, pursuing a major in Statistics. In this competition, his role focuses on mobile application development, creating a dynamic and interactive mobile application to enhance user experience.
 
-Third, we have Gabriel who is from the School of Computing pursuing a major in Computer Science. In this competition, his role focuses on the mobile application Chatbot feature, to enable easy reporting of incidents that will be filtered to ensure efficient use of resources.
+Third, we have Gabriel who is from the School of Computing, pursuing a major in Computer Science. In this competition, his role focuses on the mobile application Chatbot feature, to enable easy reporting of incidents that will be filtered to ensure efficient use of resources.
 
 Fourth, we have Rica who is from the School of Design and Environment pursuing a major in Project and Facilities Management. In this competition, her role focuses on Project Scheduling and idea generation. 
 
 Fifth, we have Kelly who is also from the School of Design and Environment pursuing a major in Project and Facilities Management. In this competition, her role focuses on idea generation of the supporting mobile application features.
+
 
  **A short description of the problem you are tackling, how technology can help, as well as the idea your team is proposing***
 
