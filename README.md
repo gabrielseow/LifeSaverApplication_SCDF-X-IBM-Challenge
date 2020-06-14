@@ -34,6 +34,7 @@ We hope to increase the scope of the app by providing an educational and rewards
   https://youtu.be/a1o9RLjWeho
   
   - **The architecture of your proposed solution***
+  <img width="777" alt="backend" src="https://user-images.githubusercontent.com/65336993/84590306-014ee180-ae68-11ea-9a87-d82200947e81.PNG">
   
   - **A hyperlink to your detailed solution*** (Long description of your solution)
   https://docs.google.com/document/d/1DaeaRD7QM5Iina-FVpQLq6AKSQ3O6P1AsyRPYxu06Cw/edit?usp=sharing 
