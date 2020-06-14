@@ -30,13 +30,13 @@ The online chatbot and IoT channels greatly increases the system’s ability to 
 
 We hope to increase the scope of the app by providing an educational and rewards section. The former will provide lessons for the volunteers, and also provide just-in-time resources in case they need to tend to an emergency. The rewards section is simply an additional incentive for users to use the app and get to know its functions and resources.
 
-  - **Pitch Video and DEMO***
+  - **Pitch Video and DEMO**
   https://youtu.be/a1o9RLjWeho
   
-  - **The architecture of your proposed solution***
+  - **The architecture of our solution**
   <img width="777" alt="backend" src="https://user-images.githubusercontent.com/65336993/84590306-014ee180-ae68-11ea-9a87-d82200947e81.PNG">
   
-  - **A hyperlink to your detailed solution*** (Long description of your solution)
+  - **Our detailed solution**
   https://docs.google.com/document/d/1DaeaRD7QM5Iina-FVpQLq6AKSQ3O6P1AsyRPYxu06Cw/edit?usp=sharing 
   
  #### Project Roadmap/ Proposed timeline
@@ -44,14 +44,10 @@ We hope to increase the scope of the app by providing an educational and rewards
  
 #### Future App Development
 <img width="468" alt="capture" src="https://user-images.githubusercontent.com/65336993/84589305-28091a00-ae60-11ea-8dae-282301bf8b85.PNG">
-
- 
-  - **Getting started*** (Step-by-step instructions to install the required software and how to run a demo of your solution)
-  - Running the tests (Explanation and breakdown on how to run tests for the proposed solution)
-  - Live demo (Link to an actual working demo/website)
   
 ## Getting started
 ### 1. LifeSaver Application
+- Try out our [LifeSaver application](https://github.com/gabrielseow/TheFives-LifeSaverApplication_SCDFXIBM/tree/master/application) by downloading the `fives.apk` on your Android phone
 
 ### 2. Chatbot for Reporting Incidents
 - Try out our [chatbot](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=jp-tok&integrationID=93b52ca0-5dc3-451d-92cc-ba2473c9a349&serviceInstanceID=7747de76-677a-46c2-a07a-50644c619be2) and test out different scenarios
