@@ -49,7 +49,7 @@ We hope to increase the scope of the app by providing an educational and rewards
   - Running the tests (Explanation and breakdown on how to run tests for the proposed solution)
   - Live demo (Link to an actual working demo/website)
   
-**What your team used to build your solution? *** 
+**Technologies used to build our solution*** 
 - IBM NodeRed
 - Android Studio Mockup
 - IBM Watson Assistant
