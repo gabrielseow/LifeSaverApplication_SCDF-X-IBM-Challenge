@@ -30,11 +30,10 @@ The online chatbot and IoT channels greatly increases the system’s ability to 
 
 We hope to increase the scope of the app by providing an educational and rewards section. The former will provide lessons for the volunteers, and also provide just-in-time resources in case they need to tend to an emergency. The rewards section is simply an additional incentive for users to use the app and get to know its functions and resources.
 
-  - **Pitch Video and DEMO***
+  - **Pitch Video***
   https://youtu.be/a1o9RLjWeho
   
   - **The architecture of your proposed solution***
-  <img width="777" alt="backend" src="https://user-images.githubusercontent.com/65336993/84590306-014ee180-ae68-11ea-9a87-d82200947e81.PNG">
   
   - **A hyperlink to your detailed solution*** (Long description of your solution)
   https://docs.google.com/document/d/1DaeaRD7QM5Iina-FVpQLq6AKSQ3O6P1AsyRPYxu06Cw/edit?usp=sharing 
@@ -52,6 +51,7 @@ We hope to increase the scope of the app by providing an educational and rewards
   
 ## Getting started
 ### 1. LifeSaver Application
+- Try out our [LifeSaver](https://github.com/gabrielseow/TheFives-LifeSaverApplication_SCDFXIBM/tree/master/application) application by downloading the `fives.apk` file to your Android phone
 
 ### 2. Chatbot for Reporting Incidents
 - Try out our [chatbot](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=jp-tok&integrationID=93b52ca0-5dc3-451d-92cc-ba2473c9a349&serviceInstanceID=7747de76-677a-46c2-a07a-50644c619be2) and test out different scenarios
@@ -70,8 +70,8 @@ We hope to increase the scope of the app by providing an educational and rewards
 - Google Map
 - Google Cloud Console
 
-### 2. Folder that contains your team’s codes
-  - Note that you may code in any language (e.g. Python, C++, Java Script, etc.)
+### Code
+- Due to GitHub upload file size limits, we used [Google Drive](https://drive.google.com/file/d/1cvgBI5owsxzrNxwn02fIQluP5p4rfWtT/view?usp=sharing) to store our source code
 
 
 ### Resources and References:
