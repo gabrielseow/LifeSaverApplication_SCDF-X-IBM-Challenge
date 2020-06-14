@@ -19,7 +19,7 @@ First, we have Richard who is from the Faculty of Science, pursuing a major in S
 
 Second, we have Mark who is also from the Faculty of Science, pursuing a major in Statistics. In this competition, his role focuses on mobile application development, creating a dynamic and interactive mobile application to enhance user experience.
 
-Third, we have Gabriel who is from the School of Computing, pursuing a major in Computer Science. In this competition, his role focuses on the mobile application Chatbot feature, to enable easy reporting of incidents that will be filtered to ensure efficient use of resources.
+Third, we have Gabriel who is from the School of Computing, pursuing a major in Computer Science and a specicialization in Artificial Intelligence. In this competition, his role focuses on the mobile application Chatbot feature, to enable easy reporting of incidents that will be filtered to ensure efficient use of resources.
 
 Fourth, we have Rica who is from the School of Design and Environment pursuing a major in Project and Facilities Management. In this competition, her role focuses on Project Scheduling and idea generation. 
 
@@ -54,7 +54,18 @@ We hope to increase the scope of the app by providing an educational and rewards
   - Running the tests (Explanation and breakdown on how to run tests for the proposed solution)
   - Live demo (Link to an actual working demo/website)
   
-**Technologies used to build our solution:**
+## Getting started
+### 1. LifeSaver Application
+
+### 2. Chatbot for Reporting Incidents
+- Try out our [chatbot](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=jp-tok&integrationID=93b52ca0-5dc3-451d-92cc-ba2473c9a349&serviceInstanceID=7747de76-677a-46c2-a07a-50644c619be2) and test out different scenarios
+- Useful Commands:
+    - `report`  - Start a incident report
+    - `manual`  - Manually select options that describe the incident
+    - `reset`   - Start a new report
+    - `help`    - Find out more about the chatbot
+  
+### Technologies used to build our solution:
 - IBM NodeRed
 - Android Studio Mockup
 - IBM Watson Assistant
@@ -63,9 +74,7 @@ We hope to increase the scope of the app by providing an educational and rewards
 - Google Map
 - Google Cloud Console
 
-
-
-#### 2. Folder that contains your team’s codes
+### 2. Folder that contains your team’s codes
   - Note that you may code in any language (e.g. Python, C++, Java Script, etc.)
 
 
