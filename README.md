@@ -41,6 +41,7 @@ We hope to increase the scope of the app by providing an educational and rewards
   - **The architecture of your proposed solution***
   
   - **A hyperlink to your detailed solution*** (Long description of your solution)
+  https://docs.google.com/document/d/1DaeaRD7QM5Iina-FVpQLq6AKSQ3O6P1AsyRPYxu06Cw/edit?usp=sharing 
   
  #### Project Roadmap/ Proposed timeline
  ![ibm](https://user-images.githubusercontent.com/65336993/84586273-a8bd1b80-ae4a-11ea-8168-281d061ab0bb.png)
