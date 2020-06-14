@@ -70,3 +70,11 @@ We hope to increase the scope of the app by providing an educational and rewards
   - [Guide for creating New GitHub folders](https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser)
   - [Sample Repository](https://github.com/Code-and-Response/Project-Sample)
   - [Sample Repository (Advanced)](https://github.com/sparrow-platform)
+### Technology used to build our solution:
+  -IBM NodeRed
+  -Android Studio Mockup
+  -IBM Watson Assistance
+  -Webhost 000 Database(External)
+  -Google Firebase
+  -Google Map
+  -Google Cloud Console
