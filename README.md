@@ -41,8 +41,12 @@ We hope to increase the scope of the app by providing an educational and rewards
   
   - **A hyperlink to your detailed solution*** (Long description of your solution)
   
-  - Project Roadmap/ Proposed timeline
-  
+ #### Project Roadmap/ Proposed timeline
+ image:: https://www.facebook.com/photo?fbid=3421321267881053&set=a.645224818824059
+  :height: 100px
+  :width: 200px
+  :scale: 50%
+ 
   - **Getting started*** (Step-by-step instructions to install the required software and how to run a demo of your solution)
   - Running the tests (Explanation and breakdown on how to run tests for the proposed solution)
   - Live demo (Link to an actual working demo/website)
