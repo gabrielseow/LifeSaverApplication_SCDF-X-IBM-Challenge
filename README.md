@@ -11,7 +11,7 @@ Your README.md should contain:
 
 #### Short Description of our team members and team name: 
 
-Hello there! We are **The FIVES!
+Hello there! We are **The FIVES**!
 
 Our group comprises 5 team members who are all currently studying at the National University of Singapore. 
 
